@@ -1,0 +1,22 @@
+{
+  "name": "SimplePopup",
+  "version": "0.1.0",
+  "summary": "A short description of SimplePopup.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/devjkkim/SimplePopup",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "devjkkim": "jkkim@donga.com"
+  },
+  "source": {
+    "git": "https://github.com/devjkkim/SimplePopup.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SimplePopup/Classes/**/*"
+}

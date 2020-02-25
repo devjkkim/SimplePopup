@@ -1,0 +1,16 @@
+PODS:
+  - SimplePopup (0.1.0)
+
+DEPENDENCIES:
+  - SimplePopup (from `../`)
+
+EXTERNAL SOURCES:
+  SimplePopup:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimplePopup: 260be6d75600364bb659b69e0963a285f7cec69b
+
+PODFILE CHECKSUM: ebd2678d1a39308bba9b895581c26980b5f7b938
+
+COCOAPODS: 1.9.0.beta.3
