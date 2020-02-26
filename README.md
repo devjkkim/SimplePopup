@@ -20,6 +20,23 @@ it, simply add the following line to your Podfile:
 pod 'SimplePopup'
 ```
 
+## Usage
+
+```swift
+let v = SimplePopupView(title: "title", message: "message")
+let actionCancel = SimpleAction(title: "Cancel") {
+  print("Cancel button clicked")
+}
+v.addAction(actionCancel)
+        
+let actionOK = SimpleAction(title: "OK", titleColor: .white, btnColor: .black) {
+  print("OK button clicked")
+}
+v.addAction(actionOK)
+        
+v.show()
+```
+
 ## Author
 
 Jeongkyun Kim, dev.jkkim@gmail.com
