@@ -1,6 +1,6 @@
 # SimplePopup
 
-[![CI Status](https://img.shields.io/travis/devjkkim/SimplePopup.svg?style=flat)](https://travis-ci.org/devjkkim/SimplePopup)
+![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/SimplePopup.svg?style=flat)](https://cocoapods.org/pods/SimplePopup)
 [![License](https://img.shields.io/cocoapods/l/SimplePopup.svg?style=flat)](https://cocoapods.org/pods/SimplePopup)
 [![Platform](https://img.shields.io/cocoapods/p/SimplePopup.svg?style=flat)](https://cocoapods.org/pods/SimplePopup)
