@@ -14,6 +14,10 @@ public class SimplePopupView: UIView {
     var lblTitle: UILabel!
     var lblMessage: UILabel!
     var actions: [SimpleAction]!
+    
+    // MARK: - Popup Style
+    let titleFontSize:CGFloat = 18
+    let messageFontSize:CGFloat = 16
 
     // MARK: - Input Data
     private var title: String?
@@ -38,8 +42,8 @@ public class SimplePopupView: UIView {
         self.addSubview(backgroundV)
         
         let popUpVW:CGFloat = 300
-        let titleH = title?.height(withConstrainedWidth: popUpVW-2*padding, font: .systemFont(ofSize: 16)) ?? 0
-        let messageH = message?.height(withConstrainedWidth: popUpVW-2*padding, font: .systemFont(ofSize: 14)) ?? 0
+        let titleH = title?.height(withConstrainedWidth: popUpVW-2*padding, font: .systemFont(ofSize: titleFontSize)) ?? 0
+        let messageH = message?.height(withConstrainedWidth: popUpVW-2*padding, font: .systemFont(ofSize: messageFontSize)) ?? 0
         let btnH:CGFloat = 50
         var lblGap:CGFloat = 0
         if title != nil && message != nil {
@@ -55,7 +59,7 @@ public class SimplePopupView: UIView {
         
         lblTitle = UILabel(frame: CGRect(x: padding, y: padding, width: popUpVW-2*padding, height: titleH))
         lblTitle.text = title
-        lblTitle.font = .systemFont(ofSize: 16)
+        lblTitle.font = .systemFont(ofSize: titleFontSize)
         lblTitle.textAlignment = .center
         lblTitle.numberOfLines = 0
         popUpView.addSubview(lblTitle)
@@ -63,7 +67,7 @@ public class SimplePopupView: UIView {
         lblMessage = UILabel(frame: CGRect(x: padding, y: lblTitle.frame.origin.y+titleH+lblGap,
                                            width: popUpVW-2*padding, height: messageH))
         lblMessage.text = message
-        lblMessage.font = .systemFont(ofSize: 14)
+        lblMessage.font = .systemFont(ofSize: messageFontSize)
         lblMessage.textAlignment = .center
         lblMessage.numberOfLines = 0
         popUpView.addSubview(lblMessage)
