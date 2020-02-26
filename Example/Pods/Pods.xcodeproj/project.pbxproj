@@ -11,14 +11,14 @@
 		08377122EEED99035A0E36AE5497E1EB /* Pods-SimplePopup_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 576387F0273457A3F792C1EDAEFB36FE /* Pods-SimplePopup_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CB289D42623B0C2A7E8B9222FF234CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		40A94970D9F90EB305DBBB697DAAD8B8 /* Pods-SimplePopup_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5616EE777B4F26F90510AB14E924383 /* Pods-SimplePopup_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4580BD6A2406048C002C91CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD672406048C002C91CF /* Constants.swift */; };
-		4580BD6B2406048C002C91CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD672406048C002C91CF /* Constants.swift */; };
-		4580BD6C2406048C002C91CF /* SimplePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD682406048C002C91CF /* SimplePopupView.swift */; };
-		4580BD6D2406048C002C91CF /* SimplePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD682406048C002C91CF /* SimplePopupView.swift */; };
-		4580BD6E2406048C002C91CF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD692406048C002C91CF /* Extension.swift */; };
-		4580BD6F2406048C002C91CF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD692406048C002C91CF /* Extension.swift */; };
-		4580BD7124060A2B002C91CF /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7024060A2B002C91CF /* SimpleAction.swift */; };
-		4580BD7224060A2B002C91CF /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7024060A2B002C91CF /* SimpleAction.swift */; };
+		4580BD7724063F9B002C91CF /* SimplePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7324063F9B002C91CF /* SimplePopupView.swift */; };
+		4580BD7824063F9B002C91CF /* SimplePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7324063F9B002C91CF /* SimplePopupView.swift */; };
+		4580BD7924063F9B002C91CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7424063F9B002C91CF /* Constants.swift */; };
+		4580BD7A24063F9B002C91CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7424063F9B002C91CF /* Constants.swift */; };
+		4580BD7B24063F9B002C91CF /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7524063F9B002C91CF /* SimpleAction.swift */; };
+		4580BD7C24063F9B002C91CF /* SimpleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7524063F9B002C91CF /* SimpleAction.swift */; };
+		4580BD7D24063F9B002C91CF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7624063F9B002C91CF /* Extension.swift */; };
+		4580BD7E24063F9B002C91CF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4580BD7624063F9B002C91CF /* Extension.swift */; };
 		5815A1A44BF5C68F38EE68075E9E11FE /* SimplePopup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C677F0C84BFE2A7F1AE861C6084CA982 /* SimplePopup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75EC04D4540FC06B1FD0B44338FBD5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8754FF6835A88AF36FB8B58AC731BFC2 /* SimplePopup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 973AAA6C3285A4A7C2FF3EA4506A1F3F /* SimplePopup-dummy.m */; };
@@ -53,10 +53,10 @@
 		389A1488D9D2AB8EFBB801CC581FC997 /* Pods-SimplePopup_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SimplePopup_Tests.modulemap"; sourceTree = "<group>"; };
 		395A8D73898D1F4FE51C4E6799087855 /* Pods-SimplePopup_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimplePopup_Tests-dummy.m"; sourceTree = "<group>"; };
 		44594B03FFD457586739F66647DF240D /* Pods-SimplePopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4580BD672406048C002C91CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		4580BD682406048C002C91CF /* SimplePopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePopupView.swift; sourceTree = "<group>"; };
-		4580BD692406048C002C91CF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
-		4580BD7024060A2B002C91CF /* SimpleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAction.swift; sourceTree = "<group>"; };
+		4580BD7324063F9B002C91CF /* SimplePopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimplePopupView.swift; path = SimplePopup/Classes/SimplePopupView.swift; sourceTree = "<group>"; };
+		4580BD7424063F9B002C91CF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = SimplePopup/Classes/Constants.swift; sourceTree = "<group>"; };
+		4580BD7524063F9B002C91CF /* SimpleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleAction.swift; path = SimplePopup/Classes/SimpleAction.swift; sourceTree = "<group>"; };
+		4580BD7624063F9B002C91CF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = SimplePopup/Classes/Extension.swift; sourceTree = "<group>"; };
 		483F527C49A86B4F8824F3803A53CCEC /* Pods-SimplePopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimplePopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		533F01797C7CF8ED7E45026B4FA7E744 /* Pods-SimplePopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimplePopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5714D7EDF64A015D18D90AAAC99A3B9B /* SimplePopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimplePopup.modulemap; sourceTree = "<group>"; };
@@ -157,10 +157,10 @@
 		534250B9AD5B3D44AE08BB049FB6DC4F /* SimplePopup */ = {
 			isa = PBXGroup;
 			children = (
-				4580BD672406048C002C91CF /* Constants.swift */,
-				4580BD692406048C002C91CF /* Extension.swift */,
-				4580BD682406048C002C91CF /* SimplePopupView.swift */,
-				4580BD7024060A2B002C91CF /* SimpleAction.swift */,
+				4580BD7424063F9B002C91CF /* Constants.swift */,
+				4580BD7624063F9B002C91CF /* Extension.swift */,
+				4580BD7524063F9B002C91CF /* SimpleAction.swift */,
+				4580BD7324063F9B002C91CF /* SimplePopupView.swift */,
 				2F05C405B9D34015C7EA9B7CD1D081D9 /* Pod */,
 				1447BE58E3C40C5D52FF2466D9E1F4DA /* Support Files */,
 			);
@@ -388,11 +388,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4580BD7D24063F9B002C91CF /* Extension.swift in Sources */,
 				E1C8C2223BB193C7DB735DD80A849B7F /* Pods-SimplePopup_Example-dummy.m in Sources */,
-				4580BD6C2406048C002C91CF /* SimplePopupView.swift in Sources */,
-				4580BD6A2406048C002C91CF /* Constants.swift in Sources */,
-				4580BD7124060A2B002C91CF /* SimpleAction.swift in Sources */,
-				4580BD6E2406048C002C91CF /* Extension.swift in Sources */,
+				4580BD7724063F9B002C91CF /* SimplePopupView.swift in Sources */,
+				4580BD7924063F9B002C91CF /* Constants.swift in Sources */,
+				4580BD7B24063F9B002C91CF /* SimpleAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,11 +408,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4580BD7E24063F9B002C91CF /* Extension.swift in Sources */,
 				8754FF6835A88AF36FB8B58AC731BFC2 /* SimplePopup-dummy.m in Sources */,
-				4580BD6D2406048C002C91CF /* SimplePopupView.swift in Sources */,
-				4580BD6B2406048C002C91CF /* Constants.swift in Sources */,
-				4580BD7224060A2B002C91CF /* SimpleAction.swift in Sources */,
-				4580BD6F2406048C002C91CF /* Extension.swift in Sources */,
+				4580BD7824063F9B002C91CF /* SimplePopupView.swift in Sources */,
+				4580BD7A24063F9B002C91CF /* Constants.swift in Sources */,
+				4580BD7C24063F9B002C91CF /* SimpleAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
