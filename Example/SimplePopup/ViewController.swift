@@ -7,12 +7,25 @@
 //
 
 import UIKit
+import SimplePopup
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let v = SimplePopupView(title: "title", message: "message")
+        let actionOK = SimpleAction(title: "test") {
+            print("test clicked")
+        }
+        v.addAction(actionOK)
+        
+        let actionCancel = SimpleAction(title: "Cancel", titleColor: .white, btnColor: .black) {
+            print("cancel clicked")
+        }
+        v.addAction(actionCancel)
+        
+        v.show()
     }
 
     override func didReceiveMemoryWarning() {
