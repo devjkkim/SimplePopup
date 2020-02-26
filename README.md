@@ -22,7 +22,7 @@ pod 'SimplePopup'
 
 ## Author
 
-devjkkim, jkkim@donga.com
+Jeongkyun Kim, dev.jkkim@gmail.com
 
 ## License
 
