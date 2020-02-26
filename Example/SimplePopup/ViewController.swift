@@ -15,15 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let v = SimplePopupView(title: "title", message: "message")
-        let actionOK = SimpleAction(title: "test") {
-            print("test clicked")
-        }
-        v.addAction(actionOK)
-        
-        let actionCancel = SimpleAction(title: "Cancel", titleColor: .white, btnColor: .black) {
-            print("cancel clicked")
+        let actionCancel = SimpleAction(title: "Cancel") {
+            print("Cancel button clicked")
         }
         v.addAction(actionCancel)
+        
+        let actionOK = SimpleAction(title: "OK", titleColor: .white, btnColor: .black) {
+            print("OK button clicked")
+        }
+        v.addAction(actionOK)
         
         v.show()
     }
